@@ -1,0 +1,215 @@
+@import url('https://fonts.googleapis.com/css2?family=Poor+Story&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+}
+.sidebar {
+  background-color: rgb(73, 64, 64);
+  /* width:200px; */
+  height: 100vh;
+  transition: transform 0.3s ease-in;
+  position: absolute;
+  
+}
+.main {
+  /* background-color: yellow; */
+  width: 92vw;
+  height: 100vh;
+}
+.container{
+  display: flex;
+  background-color: black;
+  color: white;
+}
+.sidebar nav{
+  padding: 12px;
+  
+}
+.sidebar nav li{
+  font-size: larger;
+  padding: 33px 0;
+  list-style: none;
+  font-weight: bold;
+  
+}
+.sidebar nav li a{
+  text-decoration: none;
+  color: white;
+  transition: all .5s ease;
+  border: none;
+    outline: none;
+    
+ 
+}
+.sidebar nav li a:hover{
+  color: red;
+    box-shadow: 0 0 10px white;
+    cursor: pointer;
+    background-color: ;
+}
+
+.infocontainer{
+  /* background-color: pink; */
+  height: 50vh;
+  width: 80vw;
+  margin: 144px auto;
+  display: flex;
+  justify-content: space-around;
+}
+.devinfo{
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+}
+.devpic img{
+  width: 320px;
+  height: 50vh;
+}
+.hello{
+  font-size: 65px;
+  font-family: 'Poor Story', cursive;
+}
+.name{
+   font-size: 45px;
+   font-weight: bold;
+ 
+}
+.about{
+font-size: 15px;
+margin: 15px 0;
+}
+.buttons button{
+border-radius: 15px;
+  padding: 5px 10px;
+  color: white;
+  background-color: dodgerblue;
+  font-size: 14px;
+  margin: 10px 3px;
+  font-weight: bold;
+  cursor: pointer;
+}
+.buttons button:hover{
+  color:black;
+  background-color: white;
+  
+  transition: .6s ease;
+  box-shadow: 0 0 10px white;;
+}
+/*contact section starts here */
+#contact {
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+  background-color: black;
+  color: white;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+  margin: 30px 0px;
+  align-items: center;
+}
+
+.input {
+  padding: 10px;
+  margin: 15px;
+  border: none;
+  outline: none;
+  width: 30%;
+
+}
+
+#msg {
+  padding: 15px;
+  margin: 15px;
+  border: none;
+  outline: none;
+  width: 30%;
+}
+
+.submit {
+  margin: 40px;
+  padding: 10px;
+  width: 10%;
+  border: none;
+  outline: none;
+}
+
+.head {
+  font-size: 3rem;
+  margin-top: 60px;
+  align-items: center;
+  display: flex;
+    justify-content: center;
+}
+
+.submit:hover {
+  color: red;
+  box-shadow: 0 0 10px white;
+  cursor: pointer;
+  background-color: ;
+}
+/* Blogs styleing starts */
+.blogitem{
+  margin: 20px;
+  font-family: sans-serif;
+  margin-left: 123px;
+}
+.blogcontainer h1{
+  margin-left: 20px;
+  margin-top: 60px;
+  margin-left: 123px;
+}
+
+
+/* Intro secrion starts */
+.information{
+  margin: 80px;
+  margin-left: 123px;
+}
+.information h2{
+  margin-top: 20px;
+}
+.information h1{
+  margin: 10px 0;
+}
+.skillcontainer{
+  padding: 12px;
+}
+.skill1bg{
+  height: 5px;
+  width: 300px;
+  background-color:white;
+  margin: 5px 0;
+}
+.skill1{
+  padding: 10px 0px;
+}
+.educationcontainer{
+  padding: 12px;
+  margin-left: 80px;
+}
+.maincontainer{
+  display: flex;
+  
+}
+.hamburger{
+  position: absolute;
+  cursor: pointer;
+  top: 10px;
+  left: 10px;
+
+}
+.cross{
+   margin-left: 85px;
+   
+}
+.sidebarGo{
+  transform: translate(-443px, 0px);
+  position: absolute;
+}
